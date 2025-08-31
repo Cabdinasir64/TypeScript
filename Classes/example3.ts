@@ -76,7 +76,8 @@ class CheckingAccount extends Account {
 }
 
 const Newperson1 = new Account("Charlie", "ACC001", 5000);
-
+Newperson1.deposit(1000);
+Newperson1.getBalance();
 
 const acc1 = new SavingsAccount("Alice", "SAV001", 3000);
 acc1.deposit(500);
